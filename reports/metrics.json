@@ -1,0 +1,152 @@
+{
+  "routes": {
+    "hops": {
+      "turns": 41,
+      "metres": 6079.453898545792,
+      "seconds": 647.7014589160659
+    },
+    "distance": {
+      "turns": 43,
+      "metres": 5939.2211291643525,
+      "seconds": 639.230538516926
+    },
+    "time": {
+      "turns": 43,
+      "metres": 6181.640628721096,
+      "seconds": 583.9037395520028
+    }
+  },
+  "overlap": {
+    "hops vs distance": 0.10526315789473684,
+    "hops vs time": 0.13513513513513514,
+    "distance vs time": 0.08860759493670886
+  },
+  "a_star": {
+    "expanded": 490,
+    "dijkstra_expanded": 575
+  },
+  "busiest_streets": [
+    [
+      "West Weg 501",
+      0.12464199062334677
+    ],
+    [
+      "Noord Gracht 459",
+      0.11387586575940555
+    ],
+    [
+      "Oude Plein 504",
+      0.10784671421882507
+    ],
+    [
+      "Noord Singel 499",
+      0.10316750886282236
+    ],
+    [
+      "Oost Dijk 570",
+      0.0985612735708509
+    ],
+    [
+      "Oost Kade 618",
+      0.09773123909249565
+    ],
+    [
+      "Oude Straat 231",
+      0.09700457887151796
+    ],
+    [
+      "Zuid Gracht 608",
+      0.09615326145782027
+    ]
+  ],
+  "benchmark": {
+    "rows": [
+      {
+        "side": 14,
+        "nodes": 196,
+        "edges": 658,
+        "heap_seconds": 0.0002041840000117645,
+        "linear_seconds": 0.0012673989999996138
+      },
+      {
+        "side": 20,
+        "nodes": 400,
+        "edges": 1386,
+        "heap_seconds": 0.00046730999999056166,
+        "linear_seconds": 0.004643260999998233
+      },
+      {
+        "side": 28,
+        "nodes": 783,
+        "edges": 2736,
+        "heap_seconds": 0.000929515999999353,
+        "linear_seconds": 0.01786747299999547
+      },
+      {
+        "side": 38,
+        "nodes": 1442,
+        "edges": 5024,
+        "heap_seconds": 0.0018267290000011371,
+        "linear_seconds": 0.06312553200000082
+      },
+      {
+        "side": 52,
+        "nodes": 2702,
+        "edges": 9614,
+        "heap_seconds": 0.0036280970000035495,
+        "linear_seconds": 0.26994682299999795
+      },
+      {
+        "side": 70,
+        "nodes": 4899,
+        "edges": 17592,
+        "heap_seconds": 0.0077333060000057685,
+        "linear_seconds": 0.9595648749999981
+      }
+    ],
+    "heap_exponent": 1.113638069577181,
+    "linear_exponent": 2.0745832140438862
+  },
+  "search": [
+    {
+      "seed": 3,
+      "moves": 22,
+      "bfs_expanded": 63242,
+      "bidirectional_expanded": 1276,
+      "agree": true,
+      "speedup": 49.56269592476489
+    },
+    {
+      "seed": 11,
+      "moves": 20,
+      "bfs_expanded": 30297,
+      "bidirectional_expanded": 788,
+      "agree": true,
+      "speedup": 38.44796954314721
+    },
+    {
+      "seed": 23,
+      "moves": 16,
+      "bfs_expanded": 7156,
+      "bidirectional_expanded": 306,
+      "agree": true,
+      "speedup": 23.38562091503268
+    },
+    {
+      "seed": 47,
+      "moves": 24,
+      "bfs_expanded": 100290,
+      "bidirectional_expanded": 2023,
+      "agree": true,
+      "speedup": 49.574888779041025
+    },
+    {
+      "seed": 91,
+      "moves": 22,
+      "bfs_expanded": 75178,
+      "bidirectional_expanded": 1453,
+      "agree": true,
+      "speedup": 51.73984858912595
+    }
+  ]
+}
